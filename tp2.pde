@@ -66,7 +66,7 @@ void setup() {
   txt22 = "lo que ofrece una experiencia de juego tensa y emocionante";
   txt23 = "¿Te animarías a jugarlo?, espero que sí.";
   txt24 = "Bueno, sin más que decir, me despido";
-  txt25 = "¡Hasta pronto! <3 \n clickea en la pantalla para reiniciar";
+  txt25 = "¡Hasta pronto! <3 \n clickea en el cuadro de diálogo para reiniciar";
 }
 
 void draw() {
@@ -289,7 +289,7 @@ void draw() {
   }
 }
 void mousePressed() {
-  if (frameCount/60>105);
+  if (mouseX > 10  && mouseX < 10+620 && mouseY > 400 && mouseY < 400 + 70 && frameCount/60>102);
   frameCount = 0;
 tam = 1;
 coordenadasX1 = -150;
