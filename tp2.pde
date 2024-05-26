@@ -292,4 +292,9 @@ void mousePressed() {
   if (frameCount/60>105);
   frameCount = 0;
 tam = 1;
+coordenadasX1 = -150;
+  coordenadasX2 = -150;
+  coordenadasX3 = -150;
+  coordenadasX4 = -150;
+  coordenadasX5 = -150;
 }
