@@ -291,4 +291,5 @@ void draw() {
 void mousePressed() {
   if (frameCount/60>105);
   frameCount = 0;
+tam = 1;
 }
